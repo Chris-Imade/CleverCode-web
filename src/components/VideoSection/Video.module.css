@@ -1,0 +1,23 @@
+.videoBackground {
+  background-image: url(../../assets/video-image.png);
+  background-size: cover;
+  background-position: center center;
+}
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+@keyframes hide-modal {
+    from {
+        opacity: 1;
+        scale: 1;
+    } to {
+        opacity: 0;
+        scale: 0;
+    }
+}
+
+.hideModal {
+    animation: hide-modal 500ms ease-in-out;
+    animation-iteration-count: 1;
+}

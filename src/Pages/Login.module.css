@@ -1,0 +1,21 @@
+.backgroundGradient {
+  background: rgb(26, 26, 27);
+  background: linear-gradient(
+    51deg,
+    rgba(26, 26, 27, 1) 0%,
+    rgba(27, 27, 34, 1) 13%,
+    rgba(33, 31, 45, 1) 29%,
+    rgba(37, 34, 50, 1) 40%,
+    rgba(43, 35, 31, 1) 68%,
+    rgba(39, 31, 34, 1) 74%,
+    rgba(41, 34, 30, 1) 84%,
+    rgba(29, 27, 28, 1) 93%,
+    rgba(26, 26, 27, 1) 100%
+  );
+}
+.width1 {
+  width: calc(100vw - 40vw);
+}
+.width2 {
+  width: calc(100vw - 20vw);
+}
